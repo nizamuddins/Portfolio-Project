@@ -368,11 +368,6 @@ a {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
-@media (max-width:600px) {
-    .know-me {
-        font-size: 2rem;
-    }
-}
 
 .parahead {
     font-weight: 400;
@@ -384,6 +379,7 @@ a {
     border-bottom: 4px solid #f5df4e;
 
 }
+
 .text1 {
     padding: 0;
 }
@@ -397,6 +393,15 @@ a {
     height: 100%;
     width: 57%;
     border-radius: 100%;
+}
+
+@media (max-width:600px) {
+    .know-me {
+        font-size: 2rem;
+    }
+    .para {
+        font-size: 1rem;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -478,6 +483,7 @@ a {
 .details {
     font-weight: 600;
     color: #4c4d4d;
+    font-size: 1.3rem;
 
 }
 
@@ -487,6 +493,15 @@ a {
 }
 .email:hover {
     text-decoration: none;
+}
+
+@media (max-width:600px) {
+    .text2 {
+        font-size: 1rem;
+    }
+    .details {
+        font-size: 1rem;
+    }
 }
 
 /****resume******* */
@@ -524,6 +539,7 @@ a {
 }
 .instituete {
     color: #4c4d4d;
+    font-size: 1.2rem;
 
 }
 /* Extra small devices (phones, 600px and down) */
@@ -535,6 +551,13 @@ a {
     }
     .education {
         width: 100%;
+    }
+    .sumText {
+        font-size: 2rem;
+
+    }
+    .instituete{
+        font-size: 1rem;
     }
 }
 @media (min-width: 992px) {
