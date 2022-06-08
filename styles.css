@@ -15,11 +15,6 @@ body {
     display: flow-root;
 }
 
-.container-fluid {
-    text-align: center;
-    padding: 0 2rem;
-    display: flow-root;
-}
 a {
     text-decoration: none;
 }
@@ -251,7 +246,7 @@ a {
 #About {
     padding: 8% 5%;
 }
-.row3{
+.row3 {
     padding: 0;
 }
 .div1 {
@@ -312,6 +307,9 @@ a {
         flex: 0 0 auto;
         width: 33.33333333%;
     }
+    .container-fluid {
+        padding: 0 0.5rem;
+    }
 
 }
 
@@ -322,10 +320,13 @@ a {
         flex: 0 0 auto;
         width: 100%;
     }
-.row3{
-padding-left: 3rem;
+    .row3 {
+        padding-left: 2rem;
 
-}
+    }
+    .container-fluid {
+        padding: 0 0.5rem;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -345,6 +346,11 @@ padding-left: 3rem;
     .col-lg-3 {
         flex: 0 0 auto;
         width: 25%;
+    }
+    .container-fluid {
+        text-align: center;
+        padding: 0 2rem;
+        display: flow-root;
     }
 }
 
@@ -395,7 +401,7 @@ padding-left: 3rem;
 }
 
 .Edu {
-    width:100% ;
+    width: 100%;
     border-left: 3px solid #f5df4e;
 }
 .years {
@@ -420,9 +426,9 @@ padding-left: 3rem;
     }
 }
 @media (min-width: 1200px) {
-.education{
-    width: 50%;
+    .education {
+        width: 50%;
 
-}
+    }
 
 }
