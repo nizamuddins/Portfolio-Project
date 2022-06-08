@@ -15,6 +15,29 @@ body {
     display: flow-root;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 992px) {
+
+ 
+    .container-fluid {
+        text-align: center;
+        display: flow-root;
+        padding: 0 0.5rem;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    .container-fluid {
+        text-align: center;
+        padding: 0 2rem;
+        display: flow-root;
+    }
+}
+
+
 a {
     text-decoration: none;
 }
@@ -282,7 +305,7 @@ a {
     border-bottom: 4px solid #f5df4e;
 
 }
-.text1{
+.text1 {
     padding: 0;
 }
 .para {
@@ -324,7 +347,7 @@ a {
         flex: 0 0 auto;
         width: 100%;
     }
-    .text1{
+    .text1 {
         padding: 2rem;
     }
     .row3 {
@@ -336,7 +359,7 @@ a {
         display: flow-root;
         padding: 0 0.5rem;
     }
-    
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
