@@ -78,9 +78,9 @@ a {
     padding: 2.2% 3.5%;
 }
 @media (max-width:600px) {
-    .offcanvas{
-max-width:60%;    
-}
+    .offcanvas {
+        max-width: 60%;
+    }
 
 }
 .offcanvas-title {
@@ -249,9 +249,9 @@ max-width:60%;
     @keyframes typing {
         40%,
         60% {
-            left: calc(80%);
+            left: calc(90%);
         }
-    
+
         100% {
             left: 0;
         }
@@ -368,6 +368,11 @@ max-width:60%;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
+@media (max-width:600px) {
+    .know-me {
+        font-size: 2rem;
+    }
+}
 
 .parahead {
     font-weight: 400;
@@ -384,6 +389,8 @@ max-width:60%;
 }
 .para {
     font-size: 1.5rem;
+    color: grey;
+
 }
 
 .profile {
@@ -464,18 +471,19 @@ max-width:60%;
 /********* Details**** */
 
 .text2 {
-    color: #4c4d4d;
+    color: #000;
 
 }
 
 .details {
-    color: #000;
     font-weight: 600;
+    color: #4c4d4d;
+
 }
 
 .email {
     text-decoration: underline;
-    color: #000;
+    color: #4c4d4d;
 }
 .email:hover {
     text-decoration: none;
@@ -514,7 +522,10 @@ max-width:60%;
 .years {
     color: #4c4d4d;
 }
+.instituete {
+    color: #4c4d4d;
 
+}
 /* Extra small devices (phones, 600px and down) */
 
 @media (max-width: 600px) {
