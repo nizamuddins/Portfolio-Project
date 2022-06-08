@@ -293,6 +293,10 @@ a {
 
 /* Arrow */
 
+.arrow1{
+border: none;
+border-radius: 0rem;
+}
 .bounce {
     width: 100%;
 }
