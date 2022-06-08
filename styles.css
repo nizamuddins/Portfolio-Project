@@ -8,8 +8,8 @@ body {
 }
 
 #home {
+    display: block;
     background-image: url("https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg?cs=srgb&dl=pexels-bich-tran-669996.jpg&fm=jpg");
-    background-size: auto;
     background-size: cover;
     background-repeat: no-repeat;
     display: flow-root;
@@ -17,7 +17,7 @@ body {
 
 .container-fluid {
     text-align: center;
-    padding: 0 2%;
+    padding: 0 2rem;
     display: flow-root;
 }
 a {
@@ -251,7 +251,9 @@ a {
 #About {
     padding: 8% 5%;
 }
-
+.row3{
+    padding: 0;
+}
 .div1 {
     text-align: center;
 }
@@ -316,15 +318,14 @@ a {
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
 
-    .col-sm-6 {
+    .col-sm-12 {
         flex: 0 0 auto;
-        width: 50%;
+        width: 100%;
     }
-    .fs-5 {
-        font-size: 1rem !important;
+.row3{
+padding-left: 3rem;
 
-    }
-
+}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -370,7 +371,7 @@ a {
 /****resume******* */
 #resume {
     text-align: center;
-    padding: 4rem;
+    padding: 5rem;
 }
 
 .resText {
