@@ -219,6 +219,7 @@ a {
     }
 
     .dynamic-txt li {
+        letter-spacing: 5px;
         animation: slide 12s steps(3) infinite;
     }
     @keyframes slide {
