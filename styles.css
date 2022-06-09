@@ -16,7 +16,7 @@ body {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media (max-width: 992px) {
+@media (max-width: 1440px) {
 
     .container-fluid {
         text-align: center;
@@ -140,15 +140,15 @@ a {
     .offcanvas {
         max-width: 90%;
     }
-    .header{
-        padding: 0rem;
+    .header {
+        padding: 0.1rem 0.5rem;
     }
-    .offcanvas-title{
+    .offcanvas-title {
         font-size: 1.4rem;
     }
-    .nav-link1{
-        font-size: .8rem;
-        padding-left: 0rem;
+    .nav-link1 {
+        font-size: 1rem;
+        padding-left: 0;
     }
 }
 
@@ -295,7 +295,7 @@ a {
 @media (max-width: 600px) {
     .skill-btn {
         margin-top: 1.5rem;
-        padding: 0.2rem 0.7rem;
+        padding: 0.3rem 0.7rem;
         font-size: 0.8rem;
     }
     .row1 {
@@ -357,7 +357,7 @@ a {
 }
 /* ****About Me***** */
 #About {
-    padding: 8% 5%;
+    padding: 7.5rem 5rem;
 }
 .row2 {
     margin-top: 3rem;
@@ -396,7 +396,7 @@ a {
 .text-decoration {
     font-weight: bold;
     border-bottom: 4px solid #f5df4e;
-
+    margin-bottom: 1.5;
 }
 
 .text1 {
@@ -415,69 +415,28 @@ a {
 }
 
 @media (max-width:600px) {
+    #About {
+        padding: 3rem 1rem;
+    }
     .know-me {
         font-size: 2rem;
     }
+    .parahead {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
     .para {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .text1 {
-        padding: 2rem;
+        padding: 0 2rem;
     }
     .row3 {
         padding-left: 2rem;
 
     }
     .row2 {
-        margin-top: 0rem;
-    }
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: 992px) {
-    .col-md-6 {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-    .col-md-7 {
-        flex: 0 0 auto;
-        width: 58.33333333%;
-    }
-    .col-md-4 {
-        flex: 0 0 auto;
-        width: 33.33333333%;
-    }
-
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) {
-
-    .col-sm-12 {
-        flex: 0 0 auto;
-        width: 100%;
-    }
-    
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .col-lg-8 {
-        flex: 0 0 auto;
-        width: 66.66666667%;
-    }
-    .col-lg-4 {
-        flex: 0 0 auto;
-        width: 33.33333333%;
-    }
-    .col-lg-6 {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-    .col-lg-3 {
-        flex: 0 0 auto;
-        width: 25%;
+        margin-top: 1rem;
     }
 
 }
@@ -513,10 +472,57 @@ a {
     }
 }
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col-md-7 {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+
+    .col-sm-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .col-lg-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+}
 /****resume******* */
 #resume {
     text-align: center;
-    padding: 5rem;
+    padding: 3rem 4rem;
 }
 
 .resText {
@@ -556,7 +562,7 @@ a {
 @media (max-width: 600px) {
 
     #resume {
-        padding: 4rem 1rem;
+        padding: 2rem 1rem;
     }
     .education {
         width: 100%;
