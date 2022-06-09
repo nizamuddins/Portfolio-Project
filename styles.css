@@ -75,17 +75,12 @@ a {
 /********* canvas********** */
 .header {
     background-color: #fff;
-    padding: 0.2rem .5rem;
+    padding: 0.2rem 0.5rem;
 }
-.offcanvas{
+.offcanvas {
     max-width: 22%;
 }
-@media (max-width:600px) {
-    .offcanvas {
-        max-width: 65%;
-    }
 
-}
 .offcanvas-title {
     color: #000;
     font-size: 1.8rem;
@@ -140,6 +135,21 @@ a {
 
 .nav-link1:hover {
     color: #f5df4e;
+}
+@media (max-width:600px) {
+    .offcanvas {
+        max-width: 90%;
+    }
+    .header{
+        padding: 0rem;
+    }
+    .offcanvas-title{
+        font-size: 1.4rem;
+    }
+    .nav-link1{
+        font-size: .8rem;
+        padding-left: 0rem;
+    }
 }
 
 /* ****************TYPED TEXT************* */
@@ -285,19 +295,19 @@ a {
 @media (max-width: 600px) {
     .skill-btn {
         margin-top: 1.5rem;
-        padding: 0.2rem .7rem;
-        font-size: .8rem;
+        padding: 0.2rem 0.7rem;
+        font-size: 0.8rem;
     }
     .row1 {
-        margin-top: 6.5rem;
+        margin-top: 8rem;
     }
 }
 
 /* Arrow */
 
-.arrow1{
-border: none;
-border-radius: 0rem;
+.arrow1 {
+    border: none;
+    border-radius: 0;
 }
 .bounce {
     width: 100%;
@@ -348,6 +358,9 @@ border-radius: 0rem;
 /* ****About Me***** */
 #About {
     padding: 8% 5%;
+}
+.row2 {
+    margin-top: 3rem;
 }
 .row3 {
     padding: 0;
@@ -408,6 +421,17 @@ border-radius: 0rem;
     .para {
         font-size: 1rem;
     }
+    .text1 {
+        padding: 2rem;
+    }
+    .row3 {
+        padding-left: 2rem;
+
+    }
+    .row2 {
+        margin-top: 0rem;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -424,11 +448,6 @@ border-radius: 0rem;
         flex: 0 0 auto;
         width: 33.33333333%;
     }
-    .container-fluid {
-        text-align: center;
-        display: flow-root;
-        padding: 0 0.5rem;
-    }
 
 }
 
@@ -439,19 +458,7 @@ border-radius: 0rem;
         flex: 0 0 auto;
         width: 100%;
     }
-    .text1 {
-        padding: 2rem;
-    }
-    .row3 {
-        padding-left: 2rem;
-
-    }
-    .container-fluid {
-        text-align: center;
-        display: flow-root;
-        padding: 0 0.5rem;
-    }
-
+    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -472,11 +479,7 @@ border-radius: 0rem;
         flex: 0 0 auto;
         width: 25%;
     }
-    .container-fluid {
-        text-align: center;
-        padding: 0 2rem;
-        display: flow-root;
-    }
+
 }
 
 /********* Details**** */
@@ -562,7 +565,7 @@ border-radius: 0rem;
         font-size: 2rem;
 
     }
-    .instituete{
+    .instituete {
         font-size: 1rem;
     }
 }
