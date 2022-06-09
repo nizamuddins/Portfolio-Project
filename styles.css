@@ -75,11 +75,14 @@ a {
 /********* canvas********** */
 .header {
     background-color: #fff;
-    padding: 2.2% 3.5%;
+    padding: 0.2rem .5rem;
+}
+.offcanvas{
+    max-width: 22%;
 }
 @media (max-width:600px) {
     .offcanvas {
-        max-width: 60%;
+        max-width: 65%;
     }
 
 }
@@ -87,9 +90,10 @@ a {
     color: #000;
     font-size: 1.8rem;
     font-family: "Poppins", sans-serif;
-    font-weight: bold;
+    font-weight: 600;
     border: 2px solid yellow;
     padding: 0 2.5%;
+    cursor: pointer;
 }
 
 .offcanvas-title:hover {
@@ -122,18 +126,16 @@ a {
 }
 
 /********* nav-items ********/
-.nav-item {
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    font-size: 1.4rem;
-}
 
 .nav-link1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
     display: block;
     padding: 0.5rem 1rem;
     color: #fff;
     text-decoration: none;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,;
+    transition: color 0.15s ease-in-out;
 }
 
 .nav-link1:hover {
@@ -143,7 +145,7 @@ a {
 /* ****************TYPED TEXT************* */
 .row1 {
     text-align: center;
-    margin: 8rem auto 0;
+    margin: 13rem auto 0;
 }
 
 .wrapper {
@@ -282,12 +284,12 @@ a {
 
 @media (max-width: 600px) {
     .skill-btn {
-        margin-top: 1rem;
-        padding: 0.2rem 1rem;
-        font-size: 1rem;
+        margin-top: 1.5rem;
+        padding: 0.2rem .7rem;
+        font-size: .8rem;
     }
     .row1 {
-        margin-top: 7rem;
+        margin-top: 6.5rem;
     }
 }
 
