@@ -41,6 +41,11 @@ a {
 }
 
 /********** navbar****** */
+.scrolll{
+        background-color: #000 !important;
+        transition: background-color 200ms linear;
+}
+
 .navbar-brand {
     font-size: 2.2rem;
     color: #fff;
