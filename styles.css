@@ -426,7 +426,7 @@ a {
         margin-bottom: 1rem;
     }
     .para {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .text1 {
         padding: 0 2rem;
@@ -436,7 +436,7 @@ a {
 
     }
     .row2 {
-        margin-top: 1rem;
+        margin-top: 1.5rem;
     }
 
 }
@@ -544,13 +544,20 @@ a {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
+.row4 {
+    margin-top: 2.6rem;
+}
 
 .Edu {
     width: 100%;
     border-left: 3px solid #f5df4e;
+    margin-top: 2.5rem;
 }
 .years {
     color: #4c4d4d;
+}
+.bachelor{
+    margin-top: 1.6rem;
 }
 .instituete {
     color: #4c4d4d;
@@ -562,7 +569,7 @@ a {
 @media (max-width: 600px) {
 
     #resume {
-        padding: 2rem 1rem;
+        padding: 1rem;
     }
     .education {
         width: 100%;
@@ -576,6 +583,16 @@ a {
     }
     .bachelor {
         font-size: 1.2rem;
+        margin-top: .3rem;
+    }
+    .row4 {
+        margin-top: 1.3rem;
+    }
+    .Edu {
+        margin-top: 1.3rem;
+    }
+    .years{
+        font-size: 2rem;
     }
 }
 @media (min-width: 992px) {
