@@ -1,4 +1,6 @@
+const nav = document.querySelector(".navbar");
+
 document.addEventListener("scroll", function () {
-  document.querySelector(".navbar").classList.add("scrolll");
+  nav.classList.add("scrolll")
 
 })

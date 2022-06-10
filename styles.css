@@ -43,7 +43,7 @@ a {
 /********** navbar****** */
 .scrolll{
         background-color: #000 !important;
-        transition: background-color 200ms linear;
+        transition: 200ms linear;
 }
 
 .navbar-brand {
@@ -654,4 +654,39 @@ a {
 
     }
 
+}
+
+
+/* *****************My Skills******** */
+
+.logo{
+    width: 20%;
+    display: block;
+    margin:0rem 3rem;
+}
+.flexbox1{
+    display: flex;
+    margin-top: 3rem;
+}
+
+@media (min-width: 1200px) {
+  
+   
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+   
+}
+
+@media (max-width: 600px) {
+  .skills{
+      margin-top: 2rem;
+  }
+   .logo{
+       margin-right: 0rem;
+   }
+   .flexbox1{
+       margin-top: 1.5rem;
+   }
 }
