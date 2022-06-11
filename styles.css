@@ -561,7 +561,7 @@ a {
 
 }
 /****resume******* */
-#resume {
+#Resume {
     text-align: center;
     padding: 3rem 4rem;
 }
@@ -613,7 +613,7 @@ a {
 
 @media (max-width: 600px) {
 
-    #resume {
+    #Resume {
         padding: 1rem;
     }
     .education {
@@ -775,7 +775,7 @@ a {
 }
 
 /*** contact******** */
-#contact {
+#Contact {
     margin-top: 13rem;
     background-color: #f5df4e;
     text-align: center;
@@ -819,7 +819,7 @@ a {
 }
 
 @media (max-width:600px) {
-    #contact {
+    #Contact {
         margin-top: 6rem;
         padding: 3rem;
 
