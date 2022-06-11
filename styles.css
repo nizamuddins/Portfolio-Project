@@ -680,6 +680,10 @@ a {
 }
 
 @media (max-width: 600px) {
+    .logo{
+        width: 25%;
+    }
+   
   .skills{
       margin-top: 2rem;
   }
