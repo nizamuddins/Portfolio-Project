@@ -703,6 +703,7 @@ a {
     }
     .jquery {
         height: 67px;
+        width: 30%;
     }
 
     .cV {
@@ -817,6 +818,9 @@ a {
 
     color: #4d555a;
 }
+.fa3:hover{
+    height: 40px ;
+}
 
 @media (max-width:600px) {
     #Contact {
@@ -891,3 +895,5 @@ a {
     }
 
 }
+
+
