@@ -667,14 +667,7 @@ a {
     margin-top: 3rem;
 }
 
-@media (min-width: 1200px) {
 
-    .col-lg-6 {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-
-}
 
 .cV {
     text-transform: capitalize;
@@ -684,6 +677,14 @@ a {
     font-weight: 500;
     border: 3px solid #000;
     margin-top: 2rem;
+}
+@media (min-width: 1200px) {
+
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
 }
 @media (max-width: 600px) {
     .logo {
@@ -699,10 +700,39 @@ a {
     .flexbox1 {
         margin-top: 1.5rem;
     }
+    .jquery{
+        height: 67px;
+    }
 
     .cV {
         padding: .3rem .8rem;
         font-size: .8rem;
     }
+
+}
+
+
+/******* HireMe ************/
+
+#hire{
+    height: 500px;
+    background-image: url('images/ug.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.hireText{
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+}
+
+.hireme{
+    border-radius: 0%;
+    background-color: #f5df4e;
+    text-transform: capitalize;
+    padding: 1rem 2rem;
+    font-weight: 500;
 
 }
