@@ -41,9 +41,9 @@ a {
 }
 
 /********** navbar****** */
-.scrolll{
-        background-color: #000 !important;
-        transition: 200ms linear;
+.scrolll {
+    background-color: #000 !important;
+    transition: 200ms linear;
 }
 
 .navbar-brand {
@@ -51,8 +51,8 @@ a {
     color: #fff;
     font-weight: bold;
 }
-.navbar-brand:hover{
-    color:#fff;
+.navbar-brand:hover {
+    color: #fff;
 }
 
 .brand {
@@ -83,7 +83,7 @@ a {
     padding: 0;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: none;
     transition: none;
     box-shadow: none;
@@ -98,7 +98,6 @@ a {
     background-size: 100%;
 
 }
-
 
 .icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255,255' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -592,7 +591,7 @@ a {
     border-left: 3px solid #f5df4e;
     margin-top: 2.5rem;
 }
-.fsSize{
+.fsSize {
     font-size: 2.2rem;
 }
 .years {
@@ -626,19 +625,19 @@ a {
     }
     .bachelor {
         font-size: 1.2rem;
-        margin-top: .6rem;
+        margin-top: 0.6rem;
     }
     .row4 {
         margin-top: 1.3rem;
-        padding: 0rem 1rem;
+        padding: 0 1rem;
     }
     .Edu {
         margin-top: 1.3rem;
     }
     .years {
-        font-size: .9rem;
+        font-size: 0.9rem;
     }
-    .fsSize{
+    .fsSize {
         font-size: 1.4rem;
     }
 }
@@ -656,41 +655,54 @@ a {
 
 }
 
-
 /* *****************My Skills******** */
 
-.logo{
+.logo {
     width: 20%;
     display: block;
-    margin:0rem 3rem;
+    margin: 0 3rem;
 }
-.flexbox1{
+.flexbox1 {
     display: flex;
     margin-top: 3rem;
 }
 
 @media (min-width: 1200px) {
-  
-   
+
     .col-lg-6 {
         flex: 0 0 auto;
         width: 50%;
     }
-   
+
 }
 
+.cV {
+    text-transform: capitalize;
+    padding: 1rem 3rem;
+    border-radius: 0;
+    color: #000;
+    font-weight: 500;
+    border: 3px solid #000;
+    margin-top: 2rem;
+}
 @media (max-width: 600px) {
-    .logo{
+    .logo {
         width: 25%;
     }
-   
-  .skills{
-      margin-top: 2rem;
-  }
-   .logo{
-       margin-right: 0rem;
-   }
-   .flexbox1{
-       margin-top: 1.5rem;
-   }
+
+    .skills {
+        margin-top: 2rem;
+    }
+    .logo {
+        margin-right: 0;
+    }
+    .flexbox1 {
+        margin-top: 1.5rem;
+    }
+
+    .cV {
+        padding: .3rem .8rem;
+        font-size: .8rem;
+    }
+
 }
