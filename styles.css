@@ -679,6 +679,10 @@ a {
     border: 3px solid #000;
     margin-top: 2rem;
 }
+.logo2:hover {
+    position: relative;
+    bottom: 7px;
+    }
 @media (min-width: 1200px) {
 
     .col-lg-6 {
@@ -818,8 +822,8 @@ a {
 
     color: #4d555a;
 }
-.fa3:hover{
-    height: 40px ;
+.fa3:hover {
+    height: 40px;
 }
 
 @media (max-width:600px) {
@@ -895,5 +899,3 @@ a {
     }
 
 }
-
-
