@@ -349,8 +349,8 @@ body {
     font-size: 1.2rem;
 }
 @media (max-width:600px) {
-    #home{
-        background-size:contain;
+    #home {
+        background-size: contain;
     }
     .navbar-brand {
         font-size: 1.6rem;
