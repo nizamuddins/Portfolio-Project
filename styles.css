@@ -350,7 +350,7 @@ body {
 }
 @media (max-width:600px) {
     #home {
-        background-size: contain;
+        background-size:cover;
     }
     .navbar-brand {
         font-size: 1.6rem;
