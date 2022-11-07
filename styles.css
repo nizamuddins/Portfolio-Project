@@ -653,21 +653,21 @@ body {
         padding: 3rem;
     }
     .conHead {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         letter-spacing: 0.2px;
         margin-bottom: 1rem;
     }
     .conText {
-        font-size: 1.2rem;
+        font-size: .9rem;
         font-weight: 400;
     }
     .address {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 600;
         margin-top: 1rem;
     }
     .addText {
-        font-size: 1.1rem;
+        font-size: .9rem;
     }
     .fa3 {
         height: 30px;
