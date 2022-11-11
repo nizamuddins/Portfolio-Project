@@ -8,14 +8,15 @@
     background-size: cover;
     position: relative;
 }
-.img-responsive{
+.img-responsive {
     display: block;
     height: 100%;
     width: 100%;
+    
 }
-.banner{
+.banner {
     height: 100%;
-    position:absolute;
+    position: absolute;
     z-index: -1;
 }
 .cV,
@@ -41,7 +42,7 @@ body {
 #home {
     z-index: 100;
     display: block;
-    background: black;
+    background: rgb(0, 0, 0);
     display: flow-root;
 }
 @media (max-width:1440px) {
@@ -72,7 +73,7 @@ body {
 .brand {
     font-size: 2.1rem;
     font-weight: 600;
-    color: rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
     border-radius: 100%;
     background-color: black;
 }
@@ -110,7 +111,7 @@ body {
     max-width: 22%;
 }
 .offcanvas-title {
-    color: black ;
+    color: black;
     font-size: 1.8rem;
     border: 2px solid #ff0;
     padding: 0 2.5%;
@@ -175,7 +176,7 @@ body {
 .wrapper .dynamic-txt {
     margin: 0;
     padding: 0;
-    background-color: transparent ;
+    background-color: transparent;
     line-height: 110px;
     height: 100px;
     overflow: hidden;
@@ -184,7 +185,7 @@ body {
     list-style: none;
     letter-spacing: 10px;
     font-size: 5.3rem;
-    color: #ffc20e;;
+    color: #ffc20e;
     position: relative;
     top: 0;
     animation: 12s steps(3) infinite slide;
@@ -201,7 +202,7 @@ body {
     height: 100%;
     width: 100%;
     z-index: -100;
-    background-color: transparent ;
+    background-color: transparent;
     /* border-left: 5px solid #fff; */
     animation: 4s steps(10) infinite typing;
 }
@@ -221,7 +222,7 @@ body {
 }
 .div2,
 .skill-btn {
-    color: black ;
+    color: black;
     background-color: #ffc20e;
     font-family: Poppins,sans-serif;
     text-align: center;
@@ -229,7 +230,7 @@ body {
 .skill-btn {
     font-weight: 700;
     margin-top: 2.5%;
-    padding: .5rem 1.5rem;
+    padding: 0.5rem 1.5rem;
 }
 .email,
 .name {
@@ -277,7 +278,7 @@ body {
     padding: 7.5rem 5rem;
     border-top: 3px solid #ffc20e;
     border-bottom: 3px solid #ffc20e;
-background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 .row2 {
     margin-top: 3rem;
@@ -286,7 +287,7 @@ background-color: black;
     text-align: center;
 
 }
-.know-me{
+.know-me {
     color: #fff;
 }
 .div2 {
@@ -321,7 +322,7 @@ background-color: black;
     border-radius: 100%;
 }
 .text2 {
-    color: rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
 }
 .details {
     font-weight: 600;
@@ -334,6 +335,8 @@ background-color: black;
 #Resume {
     text-align: center;
     padding: 3rem 4rem;
+    background-color: rgb(51, 51, 51);
+    color: #fff;
 }
 .resText {
     display: inline;
@@ -341,7 +344,7 @@ background-color: black;
     font-size: 1.2rem;
     font-family: Poppins,sans-serif;
     font-weight: 400;
-    color: black ;
+    color: black;
     text-align: center;
     background-color: #ffc20e;
     margin: auto;
@@ -377,7 +380,7 @@ background-color: black;
 }
 @media (max-width:600px) {
     #home {
-        background-size:cover;
+        background-size: cover;
     }
     .navbar-brand {
         font-size: 1.6rem;
@@ -474,6 +477,8 @@ background-color: black;
     }
     #Resume {
         padding: 1rem;
+        background-color: #fff;
+        color: black;
     }
     .education {
         width: 100%;
@@ -522,9 +527,9 @@ background-color: black;
 }
 .cV {
     padding: 1rem 3rem;
-    color: black ;
+    color: black;
     font-weight: 500;
-    border: 3px solid black ;
+    border: 3px solid black;
     margin-top: 2rem;
 }
 .logo2:hover {
@@ -588,7 +593,7 @@ background-color: black;
     padding: 6rem;
 }
 .conHead {
-    color: black ;
+    color: black;
     font-weight: 600;
     font-size: 3rem;
     letter-spacing: 0.5px;
@@ -607,7 +612,7 @@ background-color: black;
 .addText {
     font-size: 1.5rem;
     font-weight: 400;
-    color: black ;
+    color: black;
 }
 .media2 {
     display: flex;
@@ -619,8 +624,8 @@ background-color: black;
     height: 40px;
 }
 .copy {
-    background-color: black ;
-    padding: 4rem 0rem 2rem 0rem;
+    background-color: black;
+    padding: 4rem 0 2rem;
     text-align: center;
 }
 .right {
@@ -685,7 +690,7 @@ background-color: black;
         margin-bottom: 1rem;
     }
     .conText {
-        font-size: .9rem;
+        font-size: 0.9rem;
         font-weight: 400;
     }
     .address {
@@ -694,7 +699,7 @@ background-color: black;
         margin-top: 1rem;
     }
     .addText {
-        font-size: .9rem;
+        font-size: 0.9rem;
     }
     .fa3 {
         height: 30px;
@@ -714,4 +719,3 @@ background-color: black;
         margin: 0;
     }
 }
-
