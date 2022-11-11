@@ -12,12 +12,14 @@
     display: block;
     height: 100%;
     width: 100%;
+    size: cover;
     
 }
 .banner {
     height: 100%;
     position: absolute;
     z-index: -1;
+    overflow: hidden;
 }
 .cV,
 .hireme,
@@ -278,7 +280,7 @@ body {
     padding: 7.5rem 5rem;
     border-top: 3px solid #ffc20e;
     border-bottom: 3px solid #ffc20e;
-    background-color: rgb(14, 14, 14);
+    background-color: black;
 }
 .row2 {
     margin-top: 3rem;
@@ -625,11 +627,11 @@ body {
 }
 .copy {
     background-color: black;
-    padding: 4rem 0 2rem;
+    padding: 2rem ;
     text-align: center;
 }
 .right {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 1rem;
     margin: 0;
     letter-spacing: 1px;
@@ -712,7 +714,7 @@ body {
         color: #4d555a;
     }
     .copy {
-        padding: 2.5rem;
+        padding: 1.5rem 2.5rem;
     }
     .right {
         font-size: 0.8rem;
