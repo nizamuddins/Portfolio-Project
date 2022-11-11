@@ -534,6 +534,9 @@ body {
     border: 3px solid black;
     margin-top: 2rem;
 }
+.cV:hover{
+    border-color: #fff;
+}
 .logo2:hover {
     position: relative;
     bottom: 7px;
