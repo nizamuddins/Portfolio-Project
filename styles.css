@@ -6,19 +6,19 @@
 #home {
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    padding-bottom: 1rem;
 }
 .img-responsive {
     display: block;
     height: 100%;
     width: 100%;
     size: cover;
-    
+
 }
 .banner {
     height: 100%;
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     overflow: hidden;
 }
 .cV,
@@ -46,6 +46,8 @@ body {
     display: block;
     background: rgb(0, 0, 0);
     display: flow-root;
+ 
+
 }
 @media (max-width:1440px) {
     .container-fluid {
@@ -281,6 +283,7 @@ body {
     border-top: 3px solid #ffc20e;
     border-bottom: 3px solid #ffc20e;
     background-color: black;
+    margin-top: 700px;
 }
 .row2 {
     margin-top: 3rem;
@@ -449,6 +452,8 @@ body {
     }
     #About {
         padding: 3rem 1rem;
+        margin-top: 400px;
+
     }
     .know-me,
     .sumText {
@@ -534,7 +539,7 @@ body {
     border: 3px solid black;
     margin-top: 2rem;
 }
-.cV:hover{
+.cV:hover {
     border-color: #fff;
 }
 .logo2:hover {
@@ -592,7 +597,7 @@ body {
     margin-top: 1.5rem;
 }
 #Contact {
-    margin-top: 13rem;
+    margin-top: 6rem;
     background-color: #ffc20e;
     text-align: center;
     padding: 6rem;
@@ -630,7 +635,7 @@ body {
 }
 .copy {
     background-color: black;
-    padding: 2rem ;
+    padding: 2rem;
     text-align: center;
 }
 .right {
