@@ -18,9 +18,10 @@
 .banner {
     height: 100%;
     position: absolute;
-    z-index: 1;
+    z-index: 0;
     overflow: hidden;
 }
+
 .cV,
 .hireme,
 .resText {
@@ -160,10 +161,13 @@ body {
     color: #ffc20e;
 }
 .row1 {
+   position: relative;
     text-align: center;
     margin: 13rem auto 0;
 }
 .wrapper {
+    position: relative;
+    z-index: 2000;
     width: 47%;
     margin: auto;
 
@@ -283,7 +287,6 @@ body {
     border-top: 3px solid #ffc20e;
     border-bottom: 3px solid #ffc20e;
     background-color: black;
-    margin-top: 700px;
 }
 .row2 {
     margin-top: 3rem;
@@ -452,7 +455,6 @@ body {
     }
     #About {
         padding: 3rem 1rem;
-        margin-top: 400px;
 
     }
     .know-me,
@@ -504,6 +506,9 @@ body {
     }
     .years {
         font-size: 0.9rem;
+    }
+    .banner{
+        z-index: -1;
     }
 }
 @media (min-width:992px) {
