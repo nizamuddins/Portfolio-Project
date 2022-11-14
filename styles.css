@@ -164,6 +164,7 @@ body {
     text-align: center;
     margin: 13rem auto 0;
     z-index: 0;
+    padding-bottom: 50px;
 }
 .wrapper {
     position: relative;
@@ -290,7 +291,7 @@ body {
     border-bottom: 3px solid #ffc20e;
     background-color: black;
     position: relative;
-    margin-top: 674px;
+    margin-top: 694px;
     z-index: 2;
 
 }
@@ -456,6 +457,8 @@ body {
     }
     .row1 {
         margin-top: 8rem;
+        padding-bottom: 0;
+
     }
     .bounce .arrow {
         width: 14px;
