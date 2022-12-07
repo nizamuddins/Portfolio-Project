@@ -4,7 +4,9 @@ let width = window.innerWidth;
 let off = document.querySelector(".offcanvas");
 let off2 = document.querySelector(".media1");
 let project = document.querySelector("#Project");
-let projectlink = document.querySelector("#projectlink")
+let projectlink = document.querySelector("#projectlink");
+let skillbtn = document.querySelector(".skill-btn");
+
 if(width > 500){
     off.classList.remove("text-start");
     off2.style.position='absolute';
@@ -17,6 +19,8 @@ off2.style.marginTop= '10%';
 off2.style.width='100%';
 project.remove();
 projectlink.setAttribute('href',"index2.html")
+skillbtn.setAttribute('href',"index2.html")
+
 
 
 }
