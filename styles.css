@@ -63,7 +63,9 @@ body {
 .brand,
 .hireme:hover,
 .offcanvas-title:hover {
-    background-color: #ffc20e;
+    background-color: #ffffff;
+    border: 2px solid #00a3e0;
+
 }
 .navbar-brand {
     font-size: 1.9rem;
@@ -117,7 +119,7 @@ body {
 .offcanvas-title {
     color: black;
     font-size: 1.8rem;
-    border: 2px solid #ff0;
+    border: 2px solid #00a3e0;
     padding: 0 2.5%;
     cursor: pointer;
 }
@@ -166,7 +168,7 @@ body {
  
 }
 .nav-link1:hover {
-    color: #ffc20e;
+    color: #00a3e0;
 }
 .row1 {
     position: relative;
@@ -203,7 +205,7 @@ body {
     list-style: none;
     letter-spacing: 10px;
     font-size: 5.3rem;
-    color: #ffc20e;
+    color: #00a3e0;
     position: relative;
     top: 0;
     animation: 12s steps(3) infinite slide;
@@ -241,7 +243,7 @@ body {
 .div2,
 .skill-btn {
     color: black;
-    background-color: #ffc20e;
+    background-color: #00a3e0;
     font-family: Poppins,sans-serif;
     text-align: center;
 }
@@ -255,8 +257,8 @@ body {
     text-decoration: underline;
 }
 .skill-btn:hover {
-    color: #fff;
-    background-color: #f3d92c;
+    color: #000;
+    background-color: #fff;
 }
 .arrow1 {
     border: none;
@@ -296,8 +298,8 @@ body {
 }
 #About {
     padding: 7.5rem 5rem;
-    border-top: 3px solid #ffc20e;
-    border-bottom: 3px solid #ffc20e;
+    border-top: 3px solid #00a3e0;
+    border-bottom: 3px solid #00a3e0;
     background-color: black;
     position: relative;
     margin-top: 694px;
@@ -333,7 +335,7 @@ body {
 }
 .text-decoration {
     font-weight: 700;
-    border-bottom: 4px solid #ffc20e;
+    border-bottom: 4px solid #00a3e0;
     margin-bottom: 1.5;
 }
 .para {
@@ -372,7 +374,7 @@ body {
     font-weight: 400;
     color: black;
     text-align: center;
-    background-color: #ffc20e;
+    background-color: #00a3e0;
     margin: auto;
 }
 .sumText {
@@ -386,14 +388,14 @@ body {
 }
 .Edu {
     width: 100%;
-    border-left: 3px solid #ffc20e;
+    border-left: 3px solid #00a3e0;
     margin-top: 2.5rem;
 }
 .fsSize {
     font-size: 2.2rem;
 }
 .years {
-    color: #e8c55f;
+    color: #00a3e0;
     font-size: 1.5rem;
 }
 .bachelor {
@@ -627,14 +629,15 @@ body {
 }
 .hireme {
     border-radius: 0;
-    background-color: #ffc20e;
-    padding: 1rem 2rem;
+    background-color: #00a3e0;
+    padding: .7rem 2rem;
     font-weight: 500;
     margin-top: 1.5rem;
+    font-size: 1.3rem;
 }
 #Contact {
     margin-top: 6rem;
-    background-color: #ffc20e;
+    background-color: #00a3e0;
     text-align: center;
     padding: 6rem;
 }
@@ -681,11 +684,11 @@ body {
     letter-spacing: 1px;
 }
 .name {
-    color: #ffc20e;
+    color: #00a3e0;
     font-weight: 500;
 }
 .name:hover {
-    color: #ffc20e;
+    color: #00a3e0;
 }
 @media (max-width:600px) {
     .logo {
