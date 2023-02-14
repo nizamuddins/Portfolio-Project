@@ -813,7 +813,11 @@ body {
     filter: blur(3px);
 } */
 
-.card-text{
+/* .card-text{
     color: grey;
     font-size: .8rem;
+} */
+
+.card-title{
+    font-size: 1.5rem;
 }
