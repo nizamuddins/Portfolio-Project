@@ -32,7 +32,7 @@ if (width > 500) {
         .classList
         .add("text-start");
     off2.style.position = 'static';
-    off2.style.marginTop = '10%';
+    
     off2.style.width = '100%';
     project.remove();
     projectlink.setAttribute('href', "index2.html")
